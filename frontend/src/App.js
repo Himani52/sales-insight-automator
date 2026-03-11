@@ -9,7 +9,7 @@ function App() {
     formData.append("file", file);
     formData.append("email", "himani252006@gmail.com");
 
-    const response = await fetch("http://127.0.0.1:8000/upload", {
+    const response = await fetch("https://sales-insight-automator-er7n.onrender.com/upload", {
       method: "POST",
       body: formData
     });
