@@ -3,5 +3,5 @@ uvicorn
 pandas
 python-multipart
 python-dotenv
-google-genai
+google-generativeai
 matplotlib
